@@ -14,6 +14,15 @@
 		2C2FC00E200378BF00768A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FC00C200378BF00768A15 /* LaunchScreen.storyboard */; };
 		2C2FC019200378BF00768A15 /* DailyTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FC018200378BF00768A15 /* DailyTaskTests.swift */; };
 		2C2FC024200378BF00768A15 /* DailyTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FC023200378BF00768A15 /* DailyTaskUITests.swift */; };
+		2C74E53F2008F6DC007ED035 /* FuckingHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C74E53E2008F6DC007ED035 /* FuckingHUD.xib */; };
+		2CBA1FF720073740006E4D1F /* TaskModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA1FF620073740006E4D1F /* TaskModule.swift */; };
+		2CBA1FF92007377B006E4D1F /* Task.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA1FF82007377B006E4D1F /* Task.storyboard */; };
+		2CBA1FFB20073788006E4D1F /* Task.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA1FFA20073788006E4D1F /* Task.xcassets */; };
+		2CBA1FFD200737A4006E4D1F /* TaskCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA1FFC200737A4006E4D1F /* TaskCollectionViewController.swift */; };
+		2CBE43F820089E6000AA1880 /* FuckingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE43F720089E6000AA1880 /* FuckingHUD.swift */; };
+		2CBE43FC20089ED900AA1880 /* FuckingHUD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE43FB20089ED900AA1880 /* FuckingHUD.storyboard */; };
+		2CBE43FE20089EEA00AA1880 /* FuckingHUD.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE43FD20089EEA00AA1880 /* FuckingHUD.xcassets */; };
+		2CCA2A812009BEF000FDAEB4 /* IMG_65BA360A0FBF-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCA2A802009BEF000FDAEB4 /* IMG_65BA360A0FBF-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		2C2FC01F200378BF00768A15 /* DailyTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2FC023200378BF00768A15 /* DailyTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTaskUITests.swift; sourceTree = "<group>"; };
 		2C2FC025200378BF00768A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C74E53E2008F6DC007ED035 /* FuckingHUD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FuckingHUD.xib; sourceTree = "<group>"; };
+		2CBA1FF620073740006E4D1F /* TaskModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModule.swift; sourceTree = "<group>"; };
+		2CBA1FF82007377B006E4D1F /* Task.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Task.storyboard; sourceTree = "<group>"; };
+		2CBA1FFA20073788006E4D1F /* Task.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Task.xcassets; sourceTree = "<group>"; };
+		2CBA1FFC200737A4006E4D1F /* TaskCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewController.swift; sourceTree = "<group>"; };
+		2CBE43F720089E6000AA1880 /* FuckingHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingHUD.swift; sourceTree = "<group>"; };
+		2CBE43FB20089ED900AA1880 /* FuckingHUD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FuckingHUD.storyboard; sourceTree = "<group>"; };
+		2CBE43FD20089EEA00AA1880 /* FuckingHUD.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FuckingHUD.xcassets; sourceTree = "<group>"; };
+		2CCA2A802009BEF000FDAEB4 /* IMG_65BA360A0FBF-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_65BA360A0FBF-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +115,9 @@
 		2C2FC002200378BF00768A15 /* DailyTask */ = {
 			isa = PBXGroup;
 			children = (
-				2C2FC0312003791F00768A15 /* Storage */,
+				2CCA2A802009BEF000FDAEB4 /* IMG_65BA360A0FBF-1.png */,
+				2CBE43F620089E3500AA1880 /* HUD */,
+				2CBA1FF52007371A006E4D1F /* Task */,
 				2C2FC003200378BF00768A15 /* AppDelegate.swift */,
 				2C2FC005200378BF00768A15 /* ViewController.swift */,
 				2C2FC007200378BF00768A15 /* Main.storyboard */,
@@ -126,11 +146,26 @@
 			path = DailyTaskUITests;
 			sourceTree = "<group>";
 		};
-		2C2FC0312003791F00768A15 /* Storage */ = {
+		2CBA1FF52007371A006E4D1F /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				2CBA1FF620073740006E4D1F /* TaskModule.swift */,
+				2CBA1FFC200737A4006E4D1F /* TaskCollectionViewController.swift */,
+				2CBA1FF82007377B006E4D1F /* Task.storyboard */,
+				2CBA1FFA20073788006E4D1F /* Task.xcassets */,
 			);
-			path = Storage;
+			path = Task;
+			sourceTree = "<group>";
+		};
+		2CBE43F620089E3500AA1880 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE43F720089E6000AA1880 /* FuckingHUD.swift */,
+				2C74E53E2008F6DC007ED035 /* FuckingHUD.xib */,
+				2CBE43FB20089ED900AA1880 /* FuckingHUD.storyboard */,
+				2CBE43FD20089EEA00AA1880 /* FuckingHUD.xcassets */,
+			);
+			path = HUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2FC00E200378BF00768A15 /* LaunchScreen.storyboard in Resources */,
+				2CBA1FFB20073788006E4D1F /* Task.xcassets in Resources */,
+				2CBE43FC20089ED900AA1880 /* FuckingHUD.storyboard in Resources */,
+				2CBA1FF92007377B006E4D1F /* Task.storyboard in Resources */,
 				2C2FC00B200378BF00768A15 /* Assets.xcassets in Resources */,
 				2C2FC009200378BF00768A15 /* Main.storyboard in Resources */,
+				2C74E53F2008F6DC007ED035 /* FuckingHUD.xib in Resources */,
+				2CBE43FE20089EEA00AA1880 /* FuckingHUD.xcassets in Resources */,
+				2CCA2A812009BEF000FDAEB4 /* IMG_65BA360A0FBF-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2FC006200378BF00768A15 /* ViewController.swift in Sources */,
+				2CBA1FF720073740006E4D1F /* TaskModule.swift in Sources */,
+				2CBE43F820089E6000AA1880 /* FuckingHUD.swift in Sources */,
 				2C2FC004200378BF00768A15 /* AppDelegate.swift in Sources */,
+				2CBA1FFD200737A4006E4D1F /* TaskCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NS9C5985G;
 				INFOPLIST_FILE = DailyTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DailyTask;
@@ -449,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NS9C5985G;
 				INFOPLIST_FILE = DailyTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DailyTask;
